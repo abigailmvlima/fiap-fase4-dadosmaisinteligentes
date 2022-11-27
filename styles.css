@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(247, 243, 249);
+}
+
+div {
+    display: flex;
+}
+
+h1 {
+    margin: 5px;
+    color: rgb(55, 105, 245);
+}
+
+h2 {
+    margin: 5px;
+    color: rgb(87, 120, 211);
+}
+
+.alunos {
+    flex-direction: column;
+    margin: 20px 5px 5px 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.alunos > div {
+    margin: 2px;
+    color: rgb(118, 130, 165);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 50px;
+    background-color: rgb(241, 238, 243);
+    margin-top: 40px;
+}
+
+.tarefa {
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+
+.box {
+    flex-direction: column;
+    border: 1px solid rgb(217, 197, 216);
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box > div {
+    margin: 10px 20px;
+    border-bottom: 1px solid rgb(126, 126, 126);
+}
+
+.linha {
+    padding: 8px 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.linha :nth-child(1) {
+    width: 200px;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+}
+
+.linha :nth-child(2) {
+    flex-grow: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    inline-size: min-content;
+    color: rgb(29, 29, 29);
+}
